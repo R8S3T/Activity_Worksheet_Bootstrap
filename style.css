@@ -1,0 +1,77 @@
+/* Hero Section */
+
+.hero-image {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(Images/Hero/autumn.jpg);
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.hero-text {
+    text-align: left justify;
+    padding-left: 50px;
+    color: beige;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: brown;
+    background-color: violet;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Top Section*/
+
+.top {
+    background-color: #7cbbd6;
+}
+.one {
+    text-align: center;
+    margin-block-end: 50px;
+}
+
+.one img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.mid {
+    text-align: center;
+    margin-block-end: 50px;
+}
+
+/*Mid Section text/ image*/
+
+.col-md-9 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.col-3 {
+    text-align: right;
+    padding-right: 40px;
+}
+
+/* Mid Section image/ text*/
+
+.col-md-3 {
+    height: 300px;
+    width: 300px;
+}
+
+/* Bottom Section*/
+
+.col-2 img {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
